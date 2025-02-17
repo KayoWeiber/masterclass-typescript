@@ -5,10 +5,11 @@
   "license": "MIT",
   "description": "Treino typescript",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:server": "ts-node-dev --respawn --transpileOnly src/index.ts"
   },
   "author": "",
   "devDependencies": {
+    "ts-node-dev": "1.1.8",
     "typescript": "^5.7.3"
   },
   "dependencies": {
